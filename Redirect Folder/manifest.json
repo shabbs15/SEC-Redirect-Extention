@@ -1,0 +1,20 @@
+{
+  "name": "SEC Redirect",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Ensure the SEC always loads the old way",
+
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "permissions": [
+      "webRequest",
+      "https://www.sec.gov/ix?doc=/*",
+      "webRequestBlocking"
+    ],
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    }
+  }

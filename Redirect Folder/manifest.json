@@ -2,7 +2,7 @@
   "name": "SEC Redirect",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Ensure the SEC always loads the old way",
+  "description": "Redirects SEC fillings from ixrbl to pure html",
 
   "background": {
       "scripts": ["background.js"],
